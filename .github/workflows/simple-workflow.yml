@@ -1,0 +1,11 @@
+name: simple-workflow
+on: workflow_dispatch
+jobs:
+  simple-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: simple workflow
+        run: echo "Hello"
+      - name: simple worlflow 2
+        run: echo "Bye"
+    
